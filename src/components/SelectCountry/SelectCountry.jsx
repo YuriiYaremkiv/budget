@@ -15,19 +15,19 @@ export const SelectCountry = () => {
 
   let stylesHorizontal = {};
 
-  switch (type) {
-    case 'en':
-      stylesHorizontal.left = 0;
-      stylesHorizontal.width = '60px';
-      break;
-    case 'ua':
-      stylesHorizontal.left = 0;
-      stylesHorizontal.width = '90px';
-      stylesHorizontal.transform = 'translateX(58px)';
-      break;
-    default:
-      return stylesHorizontal;
-  }
+  // switch (type) {
+  //   case 'en':
+  //     stylesHorizontal.left = 0;
+  //     stylesHorizontal.width = '60px';
+  //     break;
+  //   case 'ua':
+  //     stylesHorizontal.left = 0;
+  //     stylesHorizontal.width = '90px';
+  //     stylesHorizontal.transform = 'translateX(58px)';
+  //     break;
+  //   default:
+  //     return stylesHorizontal;
+  // }
 
   return (
     <div className={css[`selector__${themeMode}`]}>
