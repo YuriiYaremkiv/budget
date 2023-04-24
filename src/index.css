@@ -1,5 +1,5 @@
 @import url(./style/vars.scss);
-@import url(./style/reset.css);
+@import url(./style/reset.scss);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
