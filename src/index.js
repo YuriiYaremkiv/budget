@@ -7,7 +7,7 @@ import { store, persistor } from 'redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import { I18nextProvider } from 'react-i18next';
 import i18n from 'assets/location/react-i18next';
-import './index.css';
+import './index.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter basename="/budget">
