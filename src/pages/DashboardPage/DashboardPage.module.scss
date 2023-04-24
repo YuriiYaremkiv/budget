@@ -1,11 +1,12 @@
 .main {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   background-image: url('../../images/leftElipse.png'),
     url('../../images/rightElipse.png');
   background-repeat: no-repeat;
   background-position: bottom left, top right;
+  flex: 1;
 }
 
 .section {
@@ -46,16 +47,15 @@
     flex-direction: column;
     padding: 40px 60px 60px 0px;
     width: 37%;
-    height: 100vh;
-
-    border-right: 1px solid #e7e5f2;
-    box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.6);
+    height: 100%;
   }
 
   .block2 {
     padding: 40px 0px 30px 20px;
 
     width: 63%;
+
+    border-left: 1px solid #e7e5f2;
   }
 
   .block1__item1 {

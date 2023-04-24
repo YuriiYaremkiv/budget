@@ -35,9 +35,13 @@ export const DashboardPage = () => {
   }, [dispatch]);
 
   return (
-    <>
+    <div
+      style={{
+        height: '100%',
+      }}
+    >
       <Header />
-      <main style={{ ...styles.backgroundColorMain }} className={css.main}>
+      <main className={css.main}>
         <section
           style={{ ...styles.backgroundColorBlur, position: 'relative' }}
           className={css.section}
@@ -61,11 +65,11 @@ export const DashboardPage = () => {
               </div>
             </div>
           </div>
-          {isLoading && <Loader />}
+          {isLoading ? <Loader /> : null}
           <Suspense fallback={<Loader />}></Suspense>
           <ButtonAddTransactions />
         </section>
       </main>
-    </>
+    </div>
   );
 };
