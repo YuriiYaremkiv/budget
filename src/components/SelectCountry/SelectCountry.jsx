@@ -26,7 +26,6 @@ export const SelectCountry = () => {
       stylesHorizontal.transform = 'translateX(58px)';
       break;
     default:
-      return stylesHorizontal;
   }
 
   return (
